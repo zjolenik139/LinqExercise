@@ -13,10 +13,7 @@ namespace LinqExercise
         {
             /*
              * 
-             * Complete every task using Method OR Query syntax.
-             *
-             * HINT: Use the List of Methods defined in the Lecture Material Google Doc ***********
-             *
+             * Complete every task using Method OR Query syntax. 
              * You may find that Method syntax is easier to use since it is most like C#
              * Every one of these can be completed using Linq and then printing with a foreach loop.
              * Push to your github when completed!
@@ -33,7 +30,7 @@ namespace LinqExercise
 
             //Change the value at index 4 to your age, then print the numbers in decsending order
 
-            // List of employees ***Do not remove this***
+            // List of employees ****Do not remove this****
             var employees = CreateEmployees();
 
             //Print all the employees' FullName properties to the console only if their FirstName starts with a C OR an S.
@@ -47,7 +44,7 @@ namespace LinqExercise
 
             //Add an employee to the end of the list without using employees.Add()
 
-            
+
             Console.WriteLine();
 
             Console.ReadLine();
